@@ -1,0 +1,54 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 30%;
+    width: 30%;
+    height: 20%;
+}
+.title-hero{
+    height: 1.2rem;
+    margin-top: 50px;
+}
+
+.p-hero{
+    display: flex;
+    height: 1rem;
+
+}
+
+.btn-voltar{
+    display: inline-block;
+    margin: 10px auto;
+    border-radius: 20%;
+    padding: 10px 20px;
+    background-color: chocolate;
+    text-decoration: none;
+    font-style: normal;
+    color: black;
+}
+
+.btn-voltar:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.title-hero, .btn-voltar, .p-hero{
+    margin-top: 30px;
+}
